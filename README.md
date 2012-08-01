@@ -1,7 +1,11 @@
 codeigniter 敏捷开发工具包
 =================
 
-###### 作者：解海   E-mail:xiehai@vip.qq.com    QQ:50083000    blog:http://www.hiceon.com
+######作者：解海
+######E-mail:xiehai@vip.qq.com
+######QQ:50083000
+######blog:http://www.hiceon.com
+-------------
 
 Aptana Studio 3 addon to support Codeigniter 2.x commands
 
