@@ -1,4 +1,4 @@
-codeigniter 敏捷开发工具包
+codeigniter 敏捷开发工具包(Aptana Bundle Addon)
 =================
 
 ######作者：解海
