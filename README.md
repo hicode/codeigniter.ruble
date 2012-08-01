@@ -1,4 +1,4 @@
-codeigniter.ruble
+codeigniter 敏捷开发工具包
 =================
 
 Aptana Studio 3 addon to support Codeigniter 2.x commands
