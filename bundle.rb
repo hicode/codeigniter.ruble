@@ -125,6 +125,7 @@ bundle t(:bundle_name) do |bundle|
           submenu3.command '<?php echo set_checkbox(\'...\'); ?>'
           submenu3.command '<?php echo set_radio(\'...\'); ?>'
           submenu3.separator
+		  submenu3.command 'Form Validation Template'
           submenu3.menu t(:rules) do |submenu4|
             submenu4.command 'trim'
             submenu4.command 'required'
@@ -153,8 +154,6 @@ bundle t(:bundle_name) do |bundle|
             submenu4.command 'strip_image_tags'
             submenu4.command 'encode_php_tags'
           end
-		  
-		  submenu3.command '[FV]Controller Template'
         end
         
         
