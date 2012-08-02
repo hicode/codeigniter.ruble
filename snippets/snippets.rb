@@ -530,11 +530,11 @@ with_defaults :codeigniter => 'codeigniter' do
   
   snippet "[FV]Controller Template" do |s|
     s.trigger = 'form_v'
-    s.expansion = '    $this->load->library(\'form_validation\');
-    $this->form_validation->set_rules(\'username\', \'Username\', \'trim|required|min_length[5]|max_length[12]|xss_clean\');
-    $this->form_validation->set_rules(\'password\', \'Password\', \'trim|required|matches[passconf]|md5\');
-    $this->form_validation->set_rules(\'passconf\', \'Password Confirmation\', \'trim|required\');
-    $this->form_validation->set_rules(\'email\', \'Email\', \'trim|required|valid_email\');
+    s.expansion = '    \$this->load->library(\'form_validation\');
+    \$this->form_validation->set_rules(\'username\', \'Username\', \'trim|required|min_length[5]|max_length[12]|xss_clean\');
+    \$this->form_validation->set_rules(\'password\', \'Password\', \'trim|required|matches[passconf]|md5\');
+    \$this->form_validation->set_rules(\'passconf\', \'Password Confirmation\', \'trim|required\');
+    \$this->form_validation->set_rules(\'email\', \'Email\', \'trim|required|valid_email\');
     if ($this->form_validation->run() == FALSE)
     {
       $this->load->view(\'myform\');
@@ -543,29 +543,6 @@ with_defaults :codeigniter => 'codeigniter' do
     {
       $this->load->view(\'formsuccess\');
     }'
-  end
-  
-  snippet "[FV]View Template" do |s|
-    s.trigger = 'form_v'
-    s.expansion = '    <?php echo validation_errors(); ?>
-
-    <?php echo form_open(\'form\'); ?>
-    
-    <h5>Username</h5>
-    <input type="text" name="username" value="<?php echo set_value(\'username\'); ?>" size="50" />
-    
-    <h5>Password</h5>
-    <input type="text" name="password" value="<?php echo set_value(\'password\'); ?>" size="50" />
-    
-    <h5>Password Confirm</h5>
-    <input type="text" name="passconf" value="<?php echo set_value(\'passconf\'); ?>" size="50" />
-    
-    <h5>Email Address</h5>
-    <input type="text" name="email" value="<?php echo set_value(\'email\'); ?>" size="50" />
-    
-    <div><input type="submit" value="Submit" /></div>
-    
-    </form>'
   end
   
   #Url_helper

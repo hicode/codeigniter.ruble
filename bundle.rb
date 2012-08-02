@@ -153,10 +153,8 @@ bundle t(:bundle_name) do |bundle|
             submenu4.command 'strip_image_tags'
             submenu4.command 'encode_php_tags'
           end
-          submenu3.menu t(:template) do |submenu4|
-            submenu4.command '[FV]Controller Template'
-            submenu4.command '[FV]View Template'
-          end
+		  
+		  submenu3.command '[FV]Controller Template'
         end
         
         
