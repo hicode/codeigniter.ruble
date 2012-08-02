@@ -1,0 +1,6853 @@
+!!com.aptana.scripting.model.BundleElement
+author: 解海 qq:50083000
+children:
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children:
+    - children: &id001 []
+      commandName: $this->load->library('...')
+      customProperties: null
+      displayName: $this->load->library('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->database()
+      customProperties: null
+      displayName: $this->load->database()
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->model('...')
+      customProperties: null
+      displayName: $this->load->model('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->helper('...')
+      customProperties: null
+      displayName: $this->load->helper('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->view('...')
+      customProperties: null
+      displayName: $this->load->view('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->driver('...')
+      customProperties: null
+      displayName: $this->load->driver('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->file('...')
+      customProperties: null
+      displayName: $this->load->file('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->language('...')
+      customProperties: null
+      displayName: $this->load->language('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->config('...')
+      customProperties: null
+      displayName: $this->load->config('...')
+      path: bundle.rb
+      scope: null
+    commandName: Loader
+    customProperties: null
+    displayName: Loader
+    path: bundle.rb
+    scope: null
+  - children:
+    - children:
+      - children: *id001
+        commandName: $this->uri->segment('...')
+        customProperties: null
+        displayName: $this->uri->segment('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->uri->uri_string()
+        customProperties: null
+        displayName: $this->uri->uri_string()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->uri->total_segments()
+        customProperties: null
+        displayName: $this->uri->total_segments()
+        path: bundle.rb
+        scope: null
+      commandName: Uri
+      customProperties: null
+      displayName: Uri
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->config->load('...')
+        customProperties: null
+        displayName: $this->config->load('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->config->item('...')
+        customProperties: null
+        displayName: $this->config->item('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->config->set_item('...')
+        customProperties: null
+        displayName: $this->config->set_item('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->config->site_url()
+        customProperties: null
+        displayName: $this->config->site_url()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->config->base_url()
+        customProperties: null
+        displayName: $this->config->base_url()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->config->system_url()
+        customProperties: null
+        displayName: $this->config->system_url()
+        path: bundle.rb
+        scope: null
+      commandName: Config
+      customProperties: null
+      displayName: Config
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->input->post('...')
+        customProperties: null
+        displayName: $this->input->post('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->get('...')
+        customProperties: null
+        displayName: $this->input->get('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->cookie('...')
+        customProperties: null
+        displayName: $this->input->cookie('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->set_cookie('...')
+        customProperties: null
+        displayName: $this->input->set_cookie('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->ip_address()
+        customProperties: null
+        displayName: $this->input->ip_address()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->user_agent()
+        customProperties: null
+        displayName: $this->input->user_agent()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->request_headers()
+        customProperties: null
+        displayName: $this->input->request_headers()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->get_request_header('...')
+        customProperties: null
+        displayName: $this->input->get_request_header('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->is_ajax_request()
+        customProperties: null
+        displayName: $this->input->is_ajax_request()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->is_cli_request()
+        customProperties: null
+        displayName: $this->input->is_cli_request()
+        path: bundle.rb
+        scope: null
+      commandName: Input
+      customProperties: null
+      displayName: Input
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->lang->load('...')
+        customProperties: null
+        displayName: $this->lang->load('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->lang->line('...')
+        customProperties: null
+        displayName: $this->lang->line('...')
+        path: bundle.rb
+        scope: null
+      commandName: Language
+      customProperties: null
+      displayName: Language
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->load->library('pagination')
+        customProperties: null
+        displayName: $this->load->library('pagination')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->pagination->initialize($config)
+        customProperties: null
+        displayName: $this->pagination->initialize($config)
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: echo $this->pagination->create_links();
+        customProperties: null
+        displayName: echo $this->pagination->create_links();
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['base_url'] = '...';
+        customProperties: null
+        displayName: $config['base_url'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['total_rows'] = '...';
+        customProperties: null
+        displayName: $config['total_rows'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['per_page'] = '...';
+        customProperties: null
+        displayName: $config['per_page'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['uri_segment'] = '...';
+        customProperties: null
+        displayName: $config['uri_segment'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['num_links'] = '...';
+        customProperties: null
+        displayName: $config['num_links'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['use_page_numbers'] = '...';
+        customProperties: null
+        displayName: $config['use_page_numbers'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['page_query_string'] = '...';
+        customProperties: null
+        displayName: $config['page_query_string'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['full_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['full_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['full_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['full_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['first_link'] = '...';
+        customProperties: null
+        displayName: $config['first_link'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['first_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['first_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['first_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['first_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['last_link'] = '...';
+        customProperties: null
+        displayName: $config['last_link'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['last_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['last_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['last_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['last_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['next_link'] = '...';
+        customProperties: null
+        displayName: $config['next_link'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['next_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['next_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['next_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['next_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['prev_link'] = '...';
+        customProperties: null
+        displayName: $config['prev_link'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['prev_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['prev_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['prev_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['prev_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['cur_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['cur_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['cur_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['cur_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['num_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['num_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['num_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['num_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['display_pages'] = '...';
+        customProperties: null
+        displayName: $config['display_pages'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['anchor_class'] = '...';
+        customProperties: null
+        displayName: $config['anchor_class'] = '...';
+        path: bundle.rb
+        scope: null
+      commandName: Pagination
+      customProperties: null
+      displayName: Pagination
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->form_validation->set_rules('...')
+        customProperties: null
+        displayName: $this->form_validation->set_rules('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->form_validation->run()
+        customProperties: null
+        displayName: $this->form_validation->run()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->form_validation->set_message('...')
+        customProperties: null
+        displayName: $this->form_validation->set_message('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->form_validation->set_error_delimiters('...')
+        customProperties: null
+        displayName: $this->form_validation->set_error_delimiters('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo form_error('...'); ?>
+        customProperties: null
+        displayName: <?php echo form_error('...'); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo validation_errors(); ?>
+        customProperties: null
+        displayName: <?php echo validation_errors(); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo set_value('...'); ?>
+        customProperties: null
+        displayName: <?php echo set_value('...'); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo set_select('...'); ?>
+        customProperties: null
+        displayName: <?php echo set_select('...'); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo set_checkbox('...'); ?>
+        customProperties: null
+        displayName: <?php echo set_checkbox('...'); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo set_radio('...'); ?>
+        customProperties: null
+        displayName: <?php echo set_radio('...'); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children:
+        - children: *id001
+          commandName: trim
+          customProperties: null
+          displayName: trim
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: required
+          customProperties: null
+          displayName: required
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: matches[...]
+          customProperties: null
+          displayName: matches[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: is_unique[...]
+          customProperties: null
+          displayName: is_unique[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: min_length[...]
+          customProperties: null
+          displayName: min_length[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: max_length[...]
+          customProperties: null
+          displayName: max_length[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: exact_length[...]
+          customProperties: null
+          displayName: exact_length[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: greater_than[...]
+          customProperties: null
+          displayName: greater_than[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: less_than[...]
+          customProperties: null
+          displayName: less_than[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: alpha
+          customProperties: null
+          displayName: alpha
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: alpha_numeric
+          customProperties: null
+          displayName: alpha_numeric
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: alpha_dash
+          customProperties: null
+          displayName: alpha_dash
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: numeric
+          customProperties: null
+          displayName: numeric
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: integer
+          customProperties: null
+          displayName: integer
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: decimal
+          customProperties: null
+          displayName: decimal
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: is_natural
+          customProperties: null
+          displayName: is_natural
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: is_natural_no_zero
+          customProperties: null
+          displayName: is_natural_no_zero
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: valid_email
+          customProperties: null
+          displayName: valid_email
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: valid_emails
+          customProperties: null
+          displayName: valid_emails
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: valid_ip
+          customProperties: null
+          displayName: valid_ip
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: valid_base64
+          customProperties: null
+          displayName: valid_base64
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: xss_clean
+          customProperties: null
+          displayName: xss_clean
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: prep_for_form
+          customProperties: null
+          displayName: prep_for_form
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: prep_url
+          customProperties: null
+          displayName: prep_url
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: strip_image_tags
+          customProperties: null
+          displayName: strip_image_tags
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: encode_php_tags
+          customProperties: null
+          displayName: encode_php_tags
+          path: bundle.rb
+          scope: null
+        commandName: rules
+        customProperties: null
+        displayName: rules
+        path: bundle.rb
+        scope: null
+      - children:
+        - children: *id001
+          commandName: '[FV]Controller Template'
+          customProperties: null
+          displayName: '[FV]Controller Template'
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: '[FV]View Template'
+          customProperties: null
+          displayName: '[FV]View Template'
+          path: bundle.rb
+          scope: null
+        commandName: template
+        customProperties: null
+        displayName: template
+        path: bundle.rb
+        scope: null
+      commandName: Form Validation
+      customProperties: null
+      displayName: Form Validation
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->session->userdata('...')
+        customProperties: null
+        displayName: $this->session->userdata('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->set_userdata('...')
+        customProperties: null
+        displayName: $this->session->set_userdata('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->all_userdata()
+        customProperties: null
+        displayName: $this->session->all_userdata()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->unset_userdata('...')
+        customProperties: null
+        displayName: $this->session->unset_userdata('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->set_flashdata('...')
+        customProperties: null
+        displayName: $this->session->set_flashdata('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->flashdata('...')
+        customProperties: null
+        displayName: $this->session->flashdata('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->sess_destroy()
+        customProperties: null
+        displayName: $this->session->sess_destroy()
+        path: bundle.rb
+        scope: null
+      commandName: Session
+      customProperties: null
+      displayName: Session
+      path: bundle.rb
+      scope: null
+    commandName: System_Library
+    customProperties: null
+    displayName: System_Library
+    path: bundle.rb
+    scope: null
+  - children:
+    - children:
+      - children: *id001
+        commandName: $this->load->helper('form')
+        customProperties: null
+        displayName: $this->load->helper('form')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_open('...')
+        customProperties: null
+        displayName: form_open('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_open_multipart('...')
+        customProperties: null
+        displayName: form_open_multipart('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_hidden('...')
+        customProperties: null
+        displayName: form_hidden('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_input('...')
+        customProperties: null
+        displayName: form_input('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_password('...')
+        customProperties: null
+        displayName: form_password('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_upload('...')
+        customProperties: null
+        displayName: form_upload('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_textarea('...')
+        customProperties: null
+        displayName: form_textarea('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_multiselect('...')
+        customProperties: null
+        displayName: form_multiselect('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_dropdown('...')
+        customProperties: null
+        displayName: form_dropdown('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_checkbox('...')
+        customProperties: null
+        displayName: form_checkbox('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_radio('...')
+        customProperties: null
+        displayName: form_radio('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_submit('...')
+        customProperties: null
+        displayName: form_submit('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_reset('...')
+        customProperties: null
+        displayName: form_reset('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_button('...')
+        customProperties: null
+        displayName: form_button('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_label('...')
+        customProperties: null
+        displayName: form_label('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_close('...')
+        customProperties: null
+        displayName: form_close('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_fieldset('...')
+        customProperties: null
+        displayName: form_fieldset('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_fieldset_close('...')
+        customProperties: null
+        displayName: form_fieldset_close('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_prep('...')
+        customProperties: null
+        displayName: form_prep('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: set_value('...')
+        customProperties: null
+        displayName: set_value('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: set_select('...')
+        customProperties: null
+        displayName: set_select('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: set_checkbox('...')
+        customProperties: null
+        displayName: set_checkbox('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: set_radio('...')
+        customProperties: null
+        displayName: set_radio('...')
+        path: bundle.rb
+        scope: null
+      commandName: form_helper
+      customProperties: null
+      displayName: form_helper
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->load->helper('url')
+        customProperties: null
+        displayName: $this->load->helper('url')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: site_url('...')
+        customProperties: null
+        displayName: site_url('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: base_url()
+        customProperties: null
+        displayName: base_url()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: base_url('...')
+        customProperties: null
+        displayName: base_url('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: current_url()
+        customProperties: null
+        displayName: current_url()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: uri_string()
+        customProperties: null
+        displayName: uri_string()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: index_page()
+        customProperties: null
+        displayName: index_page()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: anchor('...')
+        customProperties: null
+        displayName: anchor('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: anchor_popup('...')
+        customProperties: null
+        displayName: anchor_popup('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: mailto('...')
+        customProperties: null
+        displayName: mailto('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: safe_mailto('...')
+        customProperties: null
+        displayName: safe_mailto('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: auto_link('...')
+        customProperties: null
+        displayName: auto_link('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: url_title('...')
+        customProperties: null
+        displayName: url_title('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: prep_url($string)
+        customProperties: null
+        displayName: prep_url($string)
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: redirect('...')
+        customProperties: null
+        displayName: redirect('...')
+        path: bundle.rb
+        scope: null
+      commandName: url_helper
+      customProperties: null
+      displayName: url_helper
+      path: bundle.rb
+      scope: null
+    commandName: Helper
+    customProperties: null
+    displayName: Helper
+    path: bundle.rb
+    scope: null
+  - children:
+    - children:
+      - children: *id001
+        commandName: result()
+        customProperties: null
+        displayName: result()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: result_array()
+        customProperties: null
+        displayName: result_array()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: row()
+        customProperties: null
+        displayName: row()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: row_array()
+        customProperties: null
+        displayName: row_array()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: num_rows()
+        customProperties: null
+        displayName: num_rows()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: num_fields()
+        customProperties: null
+        displayName: num_fields()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: free_result()
+        customProperties: null
+        displayName: free_result()
+        path: bundle.rb
+        scope: null
+      commandName: Result
+      customProperties: null
+      displayName: Result
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->db->get('...')
+        customProperties: null
+        displayName: $this->db->get('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->get_where('...')
+        customProperties: null
+        displayName: $this->db->get_where('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->select('...')
+        customProperties: null
+        displayName: $this->db->select('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->select_max('...')
+        customProperties: null
+        displayName: $this->db->select_max('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->select_min('...')
+        customProperties: null
+        displayName: $this->db->select_min('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->select_avg('...')
+        customProperties: null
+        displayName: $this->db->select_avg('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->select_sum('...')
+        customProperties: null
+        displayName: $this->db->select_sum('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->from('...')
+        customProperties: null
+        displayName: $this->db->from('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->join('...')
+        customProperties: null
+        displayName: $this->db->join('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->where('...')
+        customProperties: null
+        displayName: $this->db->where('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_where('...')
+        customProperties: null
+        displayName: $this->db->or_where('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->where_in('...')
+        customProperties: null
+        displayName: $this->db->where_in('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_where_in('...')
+        customProperties: null
+        displayName: $this->db->or_where_in('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->where_not_in('...')
+        customProperties: null
+        displayName: $this->db->where_not_in('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_where_not_in('...')
+        customProperties: null
+        displayName: $this->db->or_where_not_in('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->like('...')
+        customProperties: null
+        displayName: $this->db->like('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_like('...')
+        customProperties: null
+        displayName: $this->db->or_like('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->not_like('...')
+        customProperties: null
+        displayName: $this->db->not_like('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_not_like('...')
+        customProperties: null
+        displayName: $this->db->or_not_like('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->group_by('...')
+        customProperties: null
+        displayName: $this->db->group_by('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->distinct()
+        customProperties: null
+        displayName: $this->db->distinct()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->having('...')
+        customProperties: null
+        displayName: $this->db->having('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_having('...')
+        customProperties: null
+        displayName: $this->db->or_having('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->order_by('...')
+        customProperties: null
+        displayName: $this->db->order_by('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->limit('...')
+        customProperties: null
+        displayName: $this->db->limit('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->count_all_results('...')
+        customProperties: null
+        displayName: $this->db->count_all_results('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->insert('...')
+        customProperties: null
+        displayName: $this->db->insert('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->insert_batch('...')
+        customProperties: null
+        displayName: $this->db->insert_batch('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->set('...')
+        customProperties: null
+        displayName: $this->db->set('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->update('...')
+        customProperties: null
+        displayName: $this->db->update('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->update_batch('...')
+        customProperties: null
+        displayName: $this->db->update_batch('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->delete('...')
+        customProperties: null
+        displayName: $this->db->delete('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->empty_table('...')
+        customProperties: null
+        displayName: $this->db->empty_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->truncate('...')
+        customProperties: null
+        displayName: $this->db->truncate('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->start_cache('...')
+        customProperties: null
+        displayName: $this->db->start_cache('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->stop_cache('...')
+        customProperties: null
+        displayName: $this->db->stop_cache('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->flush_cache('...')
+        customProperties: null
+        displayName: $this->db->flush_cache('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Method Chaining
+        customProperties: null
+        displayName: Method Chaining
+        path: bundle.rb
+        scope: null
+      commandName: Active_Record
+      customProperties: null
+      displayName: Active_Record
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->load->dbforge()
+        customProperties: null
+        displayName: $this->load->dbforge()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->create_database('...')
+        customProperties: null
+        displayName: $this->dbforge->create_database('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->drop_database('...')
+        customProperties: null
+        displayName: $this->dbforge->drop_database('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->create_table('...')
+        customProperties: null
+        displayName: $this->dbforge->create_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->drop_table('...')
+        customProperties: null
+        displayName: $this->dbforge->drop_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->rename_table('...')
+        customProperties: null
+        displayName: $this->dbforge->rename_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->add_column('...')
+        customProperties: null
+        displayName: $this->dbforge->add_column('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->drop_column('...')
+        customProperties: null
+        displayName: $this->dbforge->drop_column('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->modify_column('...')
+        customProperties: null
+        displayName: $this->dbforge->modify_column('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->add_field('...')
+        customProperties: null
+        displayName: $this->dbforge->add_field('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->add_key('...')
+        customProperties: null
+        displayName: $this->dbforge->add_key('...')
+        path: bundle.rb
+        scope: null
+      commandName: dbforge
+      customProperties: null
+      displayName: dbforge
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->load->dbutil()
+        customProperties: null
+        displayName: $this->load->dbutil()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->list_databases()
+        customProperties: null
+        displayName: $this->dbutil->list_databases()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->database_exists('...')
+        customProperties: null
+        displayName: $this->dbutil->database_exists('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->optimize_table('...')
+        customProperties: null
+        displayName: $this->dbutil->optimize_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->repair_table('...')
+        customProperties: null
+        displayName: $this->dbutil->repair_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->optimize_database()
+        customProperties: null
+        displayName: $this->dbutil->optimize_database()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->csv_from_result('...')
+        customProperties: null
+        displayName: $this->dbutil->csv_from_result('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->xml_from_result('...')
+        customProperties: null
+        displayName: $this->dbutil->xml_from_result('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->backup()
+        customProperties: null
+        displayName: $this->dbutil->backup()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: backup() config array
+        customProperties: null
+        displayName: backup() config array
+        path: bundle.rb
+        scope: null
+      commandName: dbutil
+      customProperties: null
+      displayName: dbutil
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: '-'
+      customProperties: null
+      displayName: '-'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->query('...')
+      customProperties: null
+      displayName: $this->db->query('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->dbprefix('...')
+      customProperties: null
+      displayName: $this->db->dbprefix('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->escape('...')
+      customProperties: null
+      displayName: $this->db->escape('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->insert_id()
+      customProperties: null
+      displayName: $this->db->insert_id()
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->affected_rows()
+      customProperties: null
+      displayName: $this->db->affected_rows()
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->count_all('...')
+      customProperties: null
+      displayName: $this->db->count_all('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->last_query()
+      customProperties: null
+      displayName: $this->db->last_query()
+      path: bundle.rb
+      scope: null
+    commandName: Database
+    customProperties: null
+    displayName: Database
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: '-'
+    customProperties: null
+    displayName: '-'
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: tpl_controller
+      customProperties: null
+      displayName: tpl_controller
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: tpl_model
+      customProperties: null
+      displayName: tpl_model
+      path: bundle.rb
+      scope: null
+    commandName: Code_Template
+    customProperties: null
+    displayName: Code_Template
+    path: bundle.rb
+    scope: null
+  commandName: Codeigniter
+  customProperties: null
+  displayName: Codeigniter
+  path: bundle.rb
+  scope: null
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-d04163a6-6888-441a-aa3e-0b4cdfe544b5,
+  path: bundle.rb, scope: source.php}
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [load]
+  description: null
+  displayName: $this->load->library('...')
+  expansion: \$this->load->library('${1:name}',${2:$config},'${3:object name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [load]
+  description: null
+  displayName: $this->load->model('...')
+  expansion: \$this->load->model('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [load]
+  description: null
+  displayName: $this->load->helper('...')
+  expansion: \$this->load->helper('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [load]
+  description: null
+  displayName: $this->load->view('...')
+  expansion: \$this->load->view('${1:name}',${2:$data},${3:TRUE/FALSE})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [load]
+  description: null
+  displayName: $this->load->driver('...')
+  expansion: \$this->load->driver('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [load]
+  description: null
+  displayName: $this->load->database()
+  expansion: \$this->load->database()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [load]
+  description: null
+  displayName: $this->load->file('...')
+  expansion: \$this->load->file('${1:filepath/filename}',{2:true/false})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [load]
+  description: null
+  displayName: $this->load->language('...')
+  expansion: \$this->load->language('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [load]
+  description: null
+  displayName: $this->load->config('...')
+  expansion: \$this->load->config('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [lang]
+  description: null
+  displayName: $this->lang->load('...')
+  expansion: \$this->lang->load('${1:filename}','${2:language}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [lang]
+  description: null
+  displayName: $this->lang->line('...')
+  expansion: \$this->lang->line('${1:language_key}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $this->load->library('pagination')
+  expansion: \$this->load->library('pagination')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $this->pagination->initialize($config)
+  expansion: \$this->pagination->initialize($config)
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: echo $this->pagination->create_links();
+  expansion: \echo $this->pagination->create_links();
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['base_url'] = '...';
+  expansion: \$config['base_url'] = '{1:value}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['total_rows'] = '...';
+  expansion: \$config['total_rows'] = '{1:value}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['per_page'] = '...';
+  expansion: \$config['per_page'] = '{1:value}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['uri_segment'] = '...';
+  expansion: \$config['uri_segment'] = '{1:value}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['num_links'] = '...';
+  expansion: \$config['num_links'] = '{1:value}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['use_page_numbers'] = '...';
+  expansion: \$config['use_page_numbers'] = '{1:TRUE/FALSE}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['page_query_string'] = '...';
+  expansion: \$config['page_query_string'] = '{1:TRUE/FALSE}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['full_tag_open'] = '...';
+  expansion: \$config['full_tag_open'] = '<{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['full_tag_close'] = '...';
+  expansion: \$config['full_tag_close'] = '<\/{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['first_link'] = '...';
+  expansion: \$config['first_link'] = '{1:link_name}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['first_tag_open'] = '...';
+  expansion: \$config['first_tag_open'] = '<{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['first_tag_close'] = '...';
+  expansion: \$config['first_tag_close'] = '<\/{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['last_link'] = '...';
+  expansion: \$config['last_link'] = '{1:link_name}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['last_tag_open'] = '...';
+  expansion: \$config['last_tag_open'] = '<{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['last_tag_close'] = '...';
+  expansion: \$config['last_tag_close'] = '<\/{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['next_link'] = '...';
+  expansion: \$config['next_link'] = '{1:link_name}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['next_tag_open'] = '...';
+  expansion: \$config['next_tag_open'] = '<{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['next_tag_close'] = '...';
+  expansion: \$config['next_tag_close'] = '<\/{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['prev_link'] = '...';
+  expansion: \$config['prev_link'] = '{1:link_name}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['prev_tag_open'] = '...';
+  expansion: \$config['prev_tag_open'] = '<{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['prev_tag_close'] = '...';
+  expansion: \$config['prev_tag_close'] = '<\/{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['cur_tag_open'] = '...';
+  expansion: \$config['cur_tag_open'] = '<{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['cur_tag_close'] = '...';
+  expansion: \$config['cur_tag_close'] = '<\/{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['num_tag_open'] = '...';
+  expansion: \$config['num_tag_open'] = '<{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['num_tag_close'] = '...';
+  expansion: \$config['num_tag_close'] = '<\/{1:html_tag}>';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['display_pages'] = '...';
+  expansion: \$config['display_pages'] = '{1:TRUE/FALSE}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pag]
+  description: null
+  displayName: $config['anchor_class'] = '...';
+  expansion: \$config['anchor_class'] = '{1:CSS Style}';
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [uri]
+  description: null
+  displayName: $this->uri->segment('...')
+  expansion: \$this->uri->segment('${1:0}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [uri]
+  description: null
+  displayName: $this->uri->uri_string()
+  expansion: \$this->uri->uri_string()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [uri]
+  description: null
+  displayName: $this->uri->total_segments()
+  expansion: \$this->uri->total_segments()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [load]
+  description: null
+  displayName: $this->config->load('...')
+  expansion: \$this->config->load('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [config]
+  description: null
+  displayName: $this->config->item('...')
+  expansion: \$this->config->item('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [config]
+  description: null
+  displayName: $this->config->set_item('...')
+  expansion: \$this->config->set_item('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [config]
+  description: null
+  displayName: $this->config->site_url('...')
+  expansion: \$this->config->site_url()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [config]
+  description: null
+  displayName: $this->config->base_url('...')
+  expansion: \$this->config->base_url()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [config]
+  description: null
+  displayName: $this->config->system_url('...')
+  expansion: \$this->config->system_url()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [input]
+  description: null
+  displayName: $this->input->post('...')
+  expansion: \$this->input->post('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [input]
+  description: null
+  displayName: $this->input->get('...')
+  expansion: \$this->input->get('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [input]
+  description: null
+  displayName: $this->input->cookie('...')
+  expansion: \$this->input->cookie('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [input]
+  description: null
+  displayName: $this->input->set_cookie('...')
+  expansion: \$this->input->set_cookie('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [input]
+  description: null
+  displayName: $this->input->ip_address()
+  expansion: \$this->input->ip_address()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [input]
+  description: null
+  displayName: $this->input->user_agent()
+  expansion: \$this->input->user_agent()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [input]
+  description: null
+  displayName: $this->input->request_headers()
+  expansion: \$this->input->request_headers()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [input]
+  description: null
+  displayName: $this->input->get_request_header('...')
+  expansion: \$this->input->get_request_header('${1:name}',${1:TRUE})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [input]
+  description: null
+  displayName: $this->input->is_ajax_request()
+  expansion: \$this->input->is_ajax_request()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [input]
+  description: null
+  displayName: $this->input->is_cli_request()
+  expansion: \$this->input->is_cli_request()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sess]
+  description: null
+  displayName: $this->session->userdata('...')
+  expansion: \$this->session->userdata('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sess]
+  description: null
+  displayName: $this->session->set_userdata('...')
+  expansion: \$this->session->set_userdata('${1:name}','${2:value}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sess]
+  description: null
+  displayName: $this->session->all_userdata()
+  expansion: \$this->session->all_userdata()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sess]
+  description: null
+  displayName: $this->session->unset_userdata('...')
+  expansion: \$this->session->unset_userdata('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sess]
+  description: null
+  displayName: $this->session->set_flashdata('...')
+  expansion: \$this->session->set_flashdata('${1:name}','${2:value}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sess]
+  description: null
+  displayName: $this->session->flashdata('...')
+  expansion: \$this->session->flashdata('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sess]
+  description: null
+  displayName: $this->session->sess_destroy()
+  expansion: \$this->session->sess_destroy()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: $this->form_validation->set_rules('...')
+  expansion: \$this->form_validation->set_rules('${1:rule_name}','${2:alias}','${3:required}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: $this->form_validation->run()
+  expansion: \$this->form_validation->run()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: $this->form_validation->set_message('...')
+  expansion: \$this->form_validation->set_message('${1:rule_name}','${2:message}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: $this->form_validation->set_error_delimiters('...')
+  expansion: \$this->form_validation->set_error_delimiters('${1:<div class="error">}','${2:</div>}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: <?php echo form_error('...'); ?>
+  expansion: <?php echo form_error('${1:field_name}'); ?>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: <?php echo validation_errors(); ?>
+  expansion: <?php echo validation_errors(); ?>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: <?php echo set_value('...'); ?>
+  expansion: <?php echo set_value('${1:field_name}','${2:value}'); ?>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: <?php echo set_select('...'); ?>
+  expansion: <?php echo set_select('${1:field_name}','${2:value}',${3:TRUE}); ?>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: <?php echo set_checkbox('...'); ?>
+  expansion: <?php echo set_checkbox('${1:field_name}','${2:value}'); ?>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: <?php echo set_radio('...'); ?>
+  expansion: <?php echo set_radio('${1:field_name}','${2:value}'),${3:TRUE}); ?>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: trim
+  expansion: trim
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: required
+  expansion: required
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: matches[...]
+  expansion: matches[${1:value}]
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: is_unique[...]
+  expansion: is_unique[${1:value}]
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: min_length[...]
+  expansion: min_length[${1:value}]
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: max_length[...]
+  expansion: max_length[${1:value}]
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: exact_length[...]
+  expansion: exact_length[${1:value}]
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: greater_than[...]
+  expansion: greater_than[${1:value}]
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: less_than[...]
+  expansion: less_than[${1:value}]
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: alpha
+  expansion: alpha
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: alpha_numeric
+  expansion: alpha_numeric
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: alpha_dash
+  expansion: alpha_dash
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: numeric
+  expansion: numeric
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: integer
+  expansion: integer
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: decimal
+  expansion: decimal
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: is_natural
+  expansion: is_natural
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: is_natural_no_zero
+  expansion: is_natural_no_zero
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: valid_email
+  expansion: valid_email
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: valid_emails
+  expansion: valid_emails
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: valid_ip
+  expansion: valid_ip
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: valid_base64
+  expansion: valid_base64
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: xss_clean
+  expansion: xss_clean
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: prep_for_form
+  expansion: prep_for_form
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: prep_url
+  expansion: prep_url
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: strip_image_tags
+  expansion: strip_image_tags
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: encode_php_tags
+  expansion: encode_php_tags
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: '[FV]Controller Template'
+  expansion: "    $this->load->library('form_validation');\n    $this->form_validation->set_rules('username',\
+    \ 'Username', 'trim|required|min_length[5]|max_length[12]|xss_clean');\n    $this->form_validation->set_rules('password',\
+    \ 'Password', 'trim|required|matches[passconf]|md5');\n    $this->form_validation->set_rules('passconf',\
+    \ 'Password Confirmation', 'trim|required');\n    $this->form_validation->set_rules('email',\
+    \ 'Email', 'trim|required|valid_email');\n    if ($this->form_validation->run()\
+    \ == FALSE)\n    {\n      $this->load->view('myform');\n    }\n    else\n    {\n\
+    \      $this->load->view('formsuccess');\n    }"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_v]
+  description: null
+  displayName: '[FV]View Template'
+  expansion: "    <?php echo validation_errors(); ?>\n\n    <?php echo form_open('form');\
+    \ ?>\n    \n    <h5>Username</h5>\n    <input type=\"text\" name=\"username\"\
+    \ value=\"<?php echo set_value('username'); ?>\" size=\"50\" />\n    \n    <h5>Password</h5>\n\
+    \    <input type=\"text\" name=\"password\" value=\"<?php echo set_value('password');\
+    \ ?>\" size=\"50\" />\n    \n    <h5>Password Confirm</h5>\n    <input type=\"\
+    text\" name=\"passconf\" value=\"<?php echo set_value('passconf'); ?>\" size=\"\
+    50\" />\n    \n    <h5>Email Address</h5>\n    <input type=\"text\" name=\"email\"\
+    \ value=\"<?php echo set_value('email'); ?>\" size=\"50\" />\n    \n    <div><input\
+    \ type=\"submit\" value=\"Submit\" /></div>\n    \n    </form>"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: $this->load->helper('url')
+  expansion: \$this->load->helper('url')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: site_url('...')
+  expansion: \site_url('${1:uri}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: base_url()
+  expansion: \base_url()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: base_url('...')
+  expansion: \base_url('${1:uri}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: current_url()
+  expansion: \current_url()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: uri_string()
+  expansion: \uri_string()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: index_page()
+  expansion: \index_page()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: anchor('...')
+  expansion: \anchor('${1:uri segments}','${2:text}','${3:attributes}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: anchor_popup('...')
+  expansion: \anchor_popup('${1:uri segments}','${2:text}','${3:attributes}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: mailto('...')
+  expansion: \mailto('${1:email}','${2:text}','${3:attributes}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: safe_mailto('...')
+  expansion: \safe_mailto('${1:email}','${2:text}','${3:attributes}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: auto_link('...')
+  expansion: \auto_link(${1:$string},'${2:text}',${3:TRUE/FALSE})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: url_title('...')
+  expansion: \auto_link(${1:$string},'${2:dash/underscore}',${3:TRUE/FALSE})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: prep_url($string)
+  expansion: \prep_url(${1:$string})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [url]
+  description: null
+  displayName: redirect('...')
+  expansion: \redirect('${1:url}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: $this->load->helper('form')
+  expansion: \$this->load->helper('form')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_open('...')
+  expansion: form_open('${1:action}',${2:\$attributes},${3:\$hidden});
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_open_multipart('...')
+  expansion: form_open_multipart('${1:action}',${2:\$attributes},${3:\$hidden});
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_hidden('...')
+  expansion: form_hidden('${1:name}','${2:value}',${3:FALSE});
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_input('...')
+  expansion: form_hidden('${1:name}','${2:value}','${3:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_password('...')
+  expansion: form_password('${1:name}','${2:value}','${3:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_upload('...')
+  expansion: form_upload('${1:name}','${2:value}','${3:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_textarea('...')
+  expansion: form_textarea('${1:name}','${2:value}','${3:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_multiselect('...')
+  expansion: form_multiselect('${1:name}',${2:\$options},${3:\$selected},'${4:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_dropdown('...')
+  expansion: form_dropdown('${1:name}',${2:\$options},${3:\$selected},'${4:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_checkbox('...')
+  expansion: form_checkbox('${1:name}','${2:value}',${3:FALSE},'${4:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_radio('...')
+  expansion: form_radio('${1:name}','${2:value}',${3:FALSE},'${4:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_submit('...')
+  expansion: form_submit('${1:name}','${2:value}','${3:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_reset('...')
+  expansion: form_reset('${1:name}','${2:value}','${3:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_button('...')
+  expansion: form_button('${1:name}','${2:content}','${3:extra}');
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_label('...')
+  expansion: form_label('${1:label_text}','${2:id}',${3:\$attributes});
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_fieldset('...')
+  expansion: form_fieldset('${1:legend_text}',${2:\$attributes});
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_fieldset_close('...')
+  expansion: form_fieldset_close();
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_close('...')
+  expansion: form_close();
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: form_prep('...')
+  expansion: form_prep(${1:\$str});
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: set_value('...')
+  expansion: set_value('${1:POST_FILED}',${2:default});
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: set_select('...')
+  expansion: set_select('${1:POST_FILED}',${2:value},${3:FALSE});
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: set_checkbox('...')
+  expansion: set_checkbox('${1:POST_FILED}',${2:value},${3:FALSE});
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [form_]
+  description: null
+  displayName: set_radio('...')
+  expansion: set_radio('${1:POST_FILED}',${2:value},${3:FALSE});
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$this->]
+  description: null
+  displayName: $this->config->item('...')
+  expansion: \$this->config->item('${1:name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$this->]
+  description: null
+  displayName: $this->config->set_item('...')
+  expansion: \$this->config->set_item('${1:name}','${2:value}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$this->]
+  description: null
+  displayName: $this->config->site_url()
+  expansion: \$this->config->site_url()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$this->]
+  description: null
+  displayName: $this->config->base_url()
+  expansion: \$this->config->base_url()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$this->]
+  description: null
+  displayName: $this->config->system_url()
+  expansion: \$this->config->system_url()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->query('...')
+  expansion: \$this->db->query('${1:SQL}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->dbprefix('...')
+  expansion: \$this->db->dbprefix('${1:table_name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->escape('...')
+  expansion: \$this->db->escape(${1:$string})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->insert_id()
+  expansion: \$this->db->insert_id()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->affected_rows()
+  expansion: \$this->db->affected_rows()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->count_all('...')
+  expansion: \$this->db->count_all('${1:table_name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->last_query()
+  expansion: \$this->db->last_query()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->get('...')
+  expansion: \$this->db->get('${1:table_name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->get_where('...')
+  expansion: \$this->db->get_where('${1:table_name}',{2:array('id' => $id)}, $limit, $offset)
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->select('...')
+  expansion: \$this->db->select('${1:field name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->select_max('...')
+  expansion: \$this->db->select_max('${1:field name}','{2:alias name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->select_min('...')
+  expansion: \$this->db->select_min('${1:field name}','{2:alias name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->select_avg('...')
+  expansion: \$this->db->select_avg('${1:field name}','{2:alias name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->select_sum('...')
+  expansion: \$this->db->select_sum('${1:field name}','{2:alias name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->from('...')
+  expansion: \$this->db->from('${1:table_name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->join('...')
+  expansion: \$this->db->join('${1:join table}','{2:table.field = table.field}','{3:left/right/outer/inner/left outer/right outer}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->where('...')
+  expansion: \$this->db->where('${1:field}',${2:$value})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->or_where('...')
+  expansion: \$this->db->or_where('${1:field}',${2:$value})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->where_in('...')
+  expansion: \$this->db->where_in('${1:field}',${2:$value})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->or_where_in('...')
+  expansion: \$this->db->or_where_in('${1:field}',${2:$value})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->where_not_in('...')
+  expansion: \$this->db->where_not_in('${1:field}',${2:$value})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->or_where_not_in('...')
+  expansion: \$this->db->or_where_not_in('${1:field}',${2:$value})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->like('...')
+  expansion: \$this->db->like('${1:field}',${2:$value},'${3:before/after/both}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->or_like('...')
+  expansion: \$this->db->or_like('${1:field}',${2:$value},'${3:before/after/both}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->not_like('...')
+  expansion: \$this->db->not_like('${1:field}',${2:$value},'${3:before/after/both}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->or_not_like('...')
+  expansion: \$this->db->or_not_like('${1:field}',${2:$value},'${3:before/after/both}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->group_by('...')
+  expansion: \$this->db->group_by('${1:field}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->distinct()
+  expansion: \$this->db->distinct()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->having('...')
+  expansion: \$this->db->having('${1:field}','{2:value}',{3:TRUE/FALSE})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->or_having('...')
+  expansion: \$this->db->having('${1:field}','{2:value}',{3:TRUE/FALSE})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->order_by('...')
+  expansion: \$this->db->order_by('${1:field}','{2:DESC/ASC}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->limit('...')
+  expansion: \$this->db->limit(${1:value},{2:offset})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->count_all_results('...')
+  expansion: \$this->db->count_all_results('${1:table or NULL}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->insert('...')
+  expansion: \$this->db->insert('${1:table name}',{2:$data})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->insert_batch('...')
+  expansion: \$this->db->insert_batch('${1:table name}',{2:$data})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->set('...')
+  expansion: \$this->db->set('${1:key}',{2:$value})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->update('...')
+  expansion: \$this->db->update('${1:table name}',{2:$data})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->update_batch('...')
+  expansion: \$this->db->update_batch('${1:table name}',{2:$data})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->delete('...')
+  expansion: \$this->db->delete('${1:table name}',{2:array('id' => $id)})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->empty_table('...')
+  expansion: \$this->db->empty_table('${1:table name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: $this->db->truncate('...')
+  expansion: \$this->db->truncate('${1:table name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: Method Chaining
+  expansion: "\n    \\$this->db->select('${1:field}')\n             ->from('${2:table}')\n\
+    \             ->where('${3:field}', ${4:$value})\n             ->limit(${5:limit},\
+    \ ${6:offset})\n             ->get()"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->load->dbforge()
+  expansion: \$this->load->dbforge()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->dbforge->create_database('...')
+  expansion: \$this->dbforge->create_database('${1:database name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->dbforge->drop_database('...')
+  expansion: \$this->dbforge->drop_database('${1:database name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->dbforge->create_table('...')
+  expansion: \$this->dbforge->create_table('${1:table name}',${2:TRUE})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->dbforge->drop_table('...')
+  expansion: \$this->dbforge->drop_table('${1:table name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->dbforge->rename_table('...')
+  expansion: \$this->dbforge->rename_table('${1:table name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->dbforge->add_column('...')
+  expansion: "\n    \\$fields = array(\n      '${1:field}' => array(\n        'type'\
+    \ => '${2:type}',\n        'constraint' => ${3:constraint(10/255/64...)},\n  \
+    \      'unsigned' => ${4:TRUE/FALSE},\n        'auto_increment' => ${5:TRUE/FALSE}\n\
+    \      )\n    );\n    \\$this->dbforge->add_column('${6:table name}',${7:$fields})"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->dbforge->add_field('...')
+  expansion: "\n    \\$fields = array(\n      '${1:field}' => array(\n        'type'\
+    \ => '${2:type}',\n        'constraint' => ${3:constraint(10/255/64...)},\n  \
+    \      'unsigned' => ${4:TRUE/FALSE},\n        'auto_increment' => ${5:TRUE/FALSE}\n\
+    \      )\n    );\n    \\$this->dbforge->add_field(${6:$fields})"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->dbforge->drop_column('...')
+  expansion: \$this->dbforge->drop_column('${1:table name}','${2:column name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->dbforge->modify_column('...')
+  expansion: \$this->dbforge->modify_column('${1:table name}',${2:$fields})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbf]
+  description: null
+  displayName: $this->dbforge->add_key('...')
+  expansion: \$this->dbforge->add_key('${1:field name}',${2:TRUE})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: $this->load->dbutil()
+  expansion: \$this->load->dbutil()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: $this->dbutil->list_databases()
+  expansion: \$this->dbutil->list_databases()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: $this->dbutil->database_exists('...')
+  expansion: \$this->dbutil->database_exists('${1:database_name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: $this->dbutil->optimize_table('...')
+  expansion: \$this->dbutil->optimize_table('${1:table_name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: $this->dbutil->repair_table('...')
+  expansion: \$this->dbutil->repair_table('${1:table_name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: $this->dbutil->optimize_database('...')
+  expansion: \$this->dbutil->optimize_database('${1:database_name}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: $this->dbutil->optimize_database()
+  expansion: \$this->dbutil->optimize_database()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: $this->dbutil->csv_from_result('...')
+  expansion: \$this->dbutil->csv_from_result(${1:$query})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: $this->dbutil->xml_from_result('...')
+  expansion: \$this->dbutil->xml_from_result(${1:$query},${1:$config})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: $this->dbutil->backup('...')
+  expansion: "\n    \\$backup =& $this->dbutil->backup();\n    \\$this->load->helper('file');\n\
+    \    write_file('${1:/path/to/mybackup.gz}', $backup);\n    \\$this->load->helper('download');\n\
+    \    force_download('${2:mybackup.gz}', $backup);"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [dbu]
+  description: null
+  displayName: backup() config array
+  expansion: "\n    $prefs = array(\n                'tables'      => ${1:array('table1',\
+    \ 'table2')},  // 包含了需备份的表名的数组.\n                'ignore'      => ${2:array()},\
+    \           // 备份时需要被忽略的表\n                'format'      => '${3:txt}',      \
+    \       // gzip, zip, txt\n                'filename'    => '${4:mybackup.sql}',\
+    \    // 文件名 - 如果选择了ZIP压缩,此项就是必需的\n                'add_drop'    => ${5:TRUE},\
+    \              // 是否要在备份文件中添加 DROP TABLE 语句\n                'add_insert'  =>\
+    \ ${6:TRUE},              // 是否要在备份文件中添加 INSERT 语句\n                'newline'\
+    \     => \"\\n\"               // 备份文件中的换行符\n              );"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: result()
+  expansion: ->result()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: result_array()
+  expansion: ->result_array()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: row()
+  expansion: ->row()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: row_array()
+  expansion: ->row_array()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: num_rows()
+  expansion: ->num_rows()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: num_fields()
+  expansion: ->num_fields()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [db]
+  description: null
+  displayName: free_result()
+  expansion: ->free_result()
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [tpl]
+  description: null
+  displayName: tpl_controller
+  expansion: "\nif ( ! defined('BASEPATH')) exit('No direct script access allowed');\n\
+    \n\\/**\n * ${3:Controller}控制器\n * --------------------------------------\n *\
+    \ 作者 : \\$Author\\$\n * 版本 : \\$Revision\\$\n * 日期 : \\$Date\\$\n * 位置 : \\$HeadURL\\\
+    $\n *\n *\\/\n\nclass ${1:ControllerName} extends CI_Controller {\n  \n  function\
+    \ __construct()\n  {\n    parent::__construct();\n    //Construct Code...\n  }\n\
+    \  \n  public function ${2:functionName}()\n  {\n    //Function Code...\n  }\n\
+    }"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [tpl]
+  description: null
+  displayName: tpl_model
+  expansion: "\nif ( ! defined('BASEPATH')) exit('No direct script access allowed');\n\
+    \n\\/**\n * ${3:ModelName}模型\n * --------------------------------------\n * 作者\
+    \ : \\$Author\\$\n * 版本 : \\$Revision\\$\n * 日期 : \\$Date\\$\n * 位置 : \\$HeadURL\\\
+    $\n *\n *\\/\nclass ${1:ModelName} extends CI_Model {\n  \n  function __construct()\n\
+    \  {\n    parent::__construct();\n    //Construct Code...\n  }\n  \n  public function\
+    \ ${2:functionName}()\n  {\n    //Function Code...\n  }\n}"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$_]
+  description: null
+  displayName: COOKIE['...']
+  expansion: \$_COOKIE['${1:variable}']
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$_]
+  description: null
+  displayName: ENV['...']
+  expansion: \$_ENV['${1:variable}']
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$_]
+  description: null
+  displayName: FILES['...']
+  expansion: \$_FILES['${1:variable}']
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$_]
+  description: null
+  displayName: GET['...']
+  expansion: \$_GET['${1:variable}']
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$_]
+  description: null
+  displayName: POST['...']
+  expansion: \$_POST['${1:variable}']
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$_]
+  description: null
+  displayName: REQUEST['...']
+  expansion: \$_REQUEST['${1:variable}']
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$_]
+  description: null
+  displayName: SERVER['...']
+  expansion: \$_SERVER['${1:variable}']
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [$_]
+  description: null
+  displayName: SESSION['...']
+  expansion: \$_SESSION['${1:variable}']
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [globals]
+  description: null
+  displayName: $GLOBALS['...']
+  expansion: '\$GLOBALS[''${1:variable}'']${2: = }${3:something}${4:;}$0'
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [class]
+  description: null
+  displayName: class ...
+  expansion: "/**\n * $1\n */\nclass ${2:ClassName} extends ${3:AnotherClass} {\n\t\
+    $4\n\tfunction ${5:__construct}(${6:$argument}) {\n\t\t${0:// code...}\n\t}\n\
+    }\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [def]
+  description: null
+  displayName: define(..., ...)
+  expansion: 'define(''$1'', ''$2'');
+
+    $0'
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: ['def?']
+  description: null
+  displayName: defined(...)
+  expansion: defined('$1')$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [do]
+  description: null
+  displayName: do ... while ...
+  expansion: "do {\n\t${0:// code...}\n} while (${1:$a <= 10});"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [echo]
+  description: null
+  displayName: echo "..."
+  expansion: echo "${1:string}"${0};
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [else]
+  description: null
+  displayName: else ...
+  expansion: "else {\n\t${0:// code...}\n}"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [elseif]
+  description: null
+  displayName: elseif ...
+  expansion: "elseif (${1:condition}) {\n\t${0:// code...}\n}"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [for]
+  description: null
+  displayName: for ...
+  expansion: "for (\\$${1:i}=${2:0}; \\$${1:i} < $3; \\$${1:i}++) { \n\t${0:// code...}\n\
+    }"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [foreach]
+  description: null
+  displayName: foreach ...
+  expansion: "foreach (\\$${1:variable} as \\$${2:key} => \\$${3:value}) {\n\t${0://\
+    \ code...}\n}"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [fun]
+  description: null
+  displayName: function ...
+  expansion: "${1:public }function ${2:functionName}(\\$${3:value}${4:=''})\n{\n\t\
+    ${0:// code...}\n}"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [<<<]
+  description: null
+  displayName: Heredoc
+  expansion: '<<<${1:HTML}
+
+    ${2:content here}
+
+    $1;
+
+    '
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: ['if?']
+  description: null
+  displayName: '$... = ( ... ) ? ... : ...'
+  expansion: '\$${1:retVal} = (${2:condition}) ? ${3:a} : ${4:b} ;'
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [ifelse]
+  description: null
+  displayName: if ... else ...
+  expansion: "if (${1:condition}) {\n\t${2:// code...}\n} else {\n\t${3:// code...}\n\
+    }\n$0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [if]
+  description: null
+  displayName: if ...
+  expansion: "if (${1:condition}) {\n\t${0:// code...}\n}"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [incl]
+  description: null
+  displayName: include ...
+  expansion: include '${1:file}';$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [incl1]
+  description: null
+  displayName: include_once ...
+  expansion: include_once '${1:file}';$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [array]
+  description: null
+  displayName: $... = array (...)
+  expansion: \$${1:arrayName} = array('$2' => ${3:,} $0);
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [doc_v]
+  description: null
+  displayName: Class Variable
+  expansion: "/**\n * ${3:undocumented class variable}\n *\n * @var ${4:string}\n\
+    \ */\n${1:var} \\$$2;$0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [doc_c]
+  description: null
+  displayName: Class
+  expansion: "/**\n * ${3:undocumented class}\n *\n * @package ${4:default}\n * @author\
+    \ ${PHPDOC_AUTHOR} $5\n */\nclass ${1:ClassName} {$0\n} // END"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [doc_d]
+  description: null
+  displayName: Constant Definition
+  expansion: "/**\n * ${3:undocumented constant}\n */\ndefine($1, $2);$0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [doc_s]
+  description: null
+  displayName: Function Signature
+  expansion: "/**\n * ${4:undocumented function}\n *\n * @return ${5:void}\n * @author\
+    \ ${PHPDOC_AUTHOR} $6\n */\nfunction ${1:functionName}($2);$0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [doc_f]
+  description: null
+  displayName: Function
+  expansion: "/**\n * ${4:undocumented function}\n *\n * @return ${5:void}\n * @author\
+    \ ${PHPDOC_AUTHOR} $6\n */\nfunction ${1:functionName}($2) {$0\n}"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [doc_h]
+  description: null
+  displayName: Header
+  expansion: "/**\n * $1\n *\n * @author ${PHPDOC_AUTHOR}\n * @version \\$Id\\$\n\
+    \ * @copyright $2\n * @package ${3:default}\n */\n\n/**\n * Define DocBlock\n\
+    \ */\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [doc_i]
+  description: null
+  displayName: Interface
+  expansion: "/**\n * ${2:undocumented interface}\n *\n * @package ${3:default}\n\
+    \ * @author ${PHPDOC_AUTHOR} $4\n */\ninterface ${1:InterfaceName} {$0\n} // END\
+    \ interface $1"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [req]
+  description: null
+  displayName: require ...
+  expansion: require '${1:file}';$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [req1]
+  description: null
+  displayName: require_once ...
+  expansion: require_once '${1:file}';$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [ret]
+  description: null
+  displayName: return
+  expansion: return$1;$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [ret0]
+  description: null
+  displayName: return false
+  expansion: return false;$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [ret1]
+  description: null
+  displayName: return true
+  expansion: return true;$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [/**]
+  description: null
+  displayName: Start Docblock
+  expansion: "/**\n * $0\n */"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [case]
+  description: null
+  displayName: case ...
+  expansion: "case '${1:variable}':\n\t${0:// code...}\n\tbreak;"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [switch]
+  description: null
+  displayName: switch ...
+  expansion: "switch (${1:variable}) {\n\tcase '${2:value}':\n\t\t${3:// code...}\n\
+    \t\tbreak;\n\t$0\n\tdefault:\n\t\t${4:// code...}\n\t\tbreak;\n}"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [throw]
+  description: null
+  displayName: Throw Exception
+  expansion: 'throw new ${1:Exception}(${2:"Error Processing Request"}, ${3:1});
+
+    $0'
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [while]
+  description: null
+  displayName: while ...
+  expansion: "while (${1:$a <= 10}) {\n\t${0:// code...}\n}"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: source.php
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [php]
+  description: null
+  displayName: <?php ... ?>
+  expansion: <?${TM_PHP_OPEN_TAG:php} $0 ?>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: text.html - source
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [this]
+  description: null
+  displayName: <?php $this->... ?>
+  expansion: <?${TM_PHP_OPEN_TAG:php} \$this->$0 ?>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: text.html - source
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [ethis]
+  description: null
+  displayName: <?php echo $this->... ?>
+  expansion: <?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} \$this->$0 ?>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: text.html - source
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [echo]
+  description: null
+  displayName: <?php echo ... ?>
+  expansion: <?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} ${1:\$var} ?>$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: text.html - source
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [echoh]
+  description: null
+  displayName: <?php echo htmlentities(...) ?>
+  expansion: <?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} htmlentities(${1:\$var}, ENT_QUOTES, 'utf-8') ?>$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: text.html - source
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [else]
+  description: null
+  displayName: '<?php else: ?>'
+  expansion: '<?${TM_PHP_OPEN_TAG:php} else: ?>'
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: text.html - source
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [foreach]
+  description: null
+  displayName: <?php foreach (...) ... <?php endforeach ?>
+  expansion: "<?${TM_PHP_OPEN_TAG:php} foreach (\\$${1:variable} as \\$${2:key} =>\
+    \ \\$${3:value}): ?>\n\t${0}\n<?${TM_PHP_OPEN_TAG:php} endforeach ?>"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: text.html - source
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [ifelse]
+  description: null
+  displayName: <?php if (...) ?> ... <?php else ?> ... <?php endif ?>
+  expansion: "<?${TM_PHP_OPEN_TAG:php} if (${1:condition}): ?>\n\t$2\n<?${TM_PHP_OPEN_TAG:php}\
+    \ else: ?>\n\t$0\n<?${TM_PHP_OPEN_TAG:php} endif ?>"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: text.html - source
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [if]
+  description: null
+  displayName: <?php if (...) ?> ... <?php endif ?>
+  expansion: "<?${TM_PHP_OPEN_TAG:php} if (${1:condition}): ?>\n\t$0\n<?${TM_PHP_OPEN_TAG:php}\
+    \ endif ?>"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: text.html - source
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.TemplateElement
+  async: false
+  customProperties: null
+  displayName: PHP Template
+  filetype: '*.php'
+  input: []
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: discard
+  path: templates\templates.rb
+  runType: current_thread
+  scope: null
+  workingDirectoryType: UNDEFINED
+copyright: null
+customProperties: {contact_email_rot_13: xiehai@vip.qq.com}
+decreaseIndentMarkers: &id002 {}
+description: <a href="http://www.codeigniter.com/">codeigniter</a>敏捷开发工具包
+displayName: Codeigniter
+fileTypeRegistry: *id002
+fileTypes: *id001
+foldingStartMarkers: {!scope 'source.php': !regexp '(?-mix:(\/\*|\{\s*$|<<<HTML))'}
+foldingStopMarkers: {!scope 'source.php': !regexp '(?-mix:(\*\/|^\s*\}|^HTML;))'}
+increaseIndentMarkers: *id002
+license: null
+licenseUrl: null
+path: bundle.rb
+repository: git://github.com/hicode/codeigniter.ruble.git
+visible: true
