@@ -15,9 +15,14 @@ The Development kit incorporates all the Codeigniter API, use the shortcuts and 
 
 该开发工具包集成所有的Codeigniter API，使用快捷键和菜单选项迅捷的提示所需的Codeigniter代码，使敏捷的Codeigniter更加敏捷！
 
-Install :: 安装
-==================
+
+-------------
+###Install :: 安装
 
 
+-------------
+###HOW TO :: 使用
 
+
+-------------
 Enjoy it!
