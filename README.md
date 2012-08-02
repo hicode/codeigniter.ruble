@@ -19,6 +19,11 @@ The Development kit incorporates all the Codeigniter API, use the shortcuts and 
 -------------
 ###Install :: 安装
 
+打开Aptana命令行控制台
+Home@HOMEPC ~/Aptana Rubles 
+
+输入如下：
+$ git clone git://github.com/hicode/codeigniter.ruble.git
 
 -------------
 ###HOW TO :: 使用
