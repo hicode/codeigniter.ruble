@@ -644,7 +644,7 @@ with_defaults :codeigniter => 'codeigniter' do
   
   snippet "form_input(\'...\')" do |s|
     s.trigger = 'form_'
-    s.expansion = 'form_hidden(\'${1:name}\',\'${2:value}\',\'${3:extra}\');'
+    s.expansion = 'form_input(\'${1:name}\',\'${2:value}\',\'${3:extra}\');'
   end
   
   snippet "form_password(\'...\')" do |s|
