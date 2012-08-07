@@ -328,12 +328,7 @@ bundle t(:bundle_name) do |bundle|
       end
     end
 	
-	submenu.menu t(:thirdPartyModules) do |submenu2|
-        # TODO
-        submenu2.menu t(:Ion_auth) do |submenu3|
-			submenu2.command '$this->load->library(\'ion_auth\')'
-		end
-    end
+	
 end
 
 # Special ENV vars for PHP scope
