@@ -32,6 +32,7 @@ $this->input->post();     写法：input.post
 
 注：自动匹配，不用全部敲出。
 
+数据库链式方法
 $this->db->select(*)->get()->result()
 
 写法：
@@ -44,7 +45,15 @@ $this->db->select(*)->get()->result()
 
 :result
 
+![chaining](http://116.255.245.18/ci_bundle/2.gif "chaining")
+
 提供逻辑化分类方法的API列表供查询。
+
+![api list](http://116.255.245.18/ci_bundle/1.jpg "api list")
+
+加入控制器、模型模板
+
+![template](http://116.255.245.18/ci_bundle/1.gif "template")
 
 修订若干bug。
 
