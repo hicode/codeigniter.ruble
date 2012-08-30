@@ -278,6 +278,19 @@ bundle t(:bundle_name) do |bundle|
           submenu3.command '$this->db->flush_cache(\'...\')'
           submenu3.separator
           submenu3.command 'Method Chaining'
+          submenu3.separator
+          submenu3.command 'Chaining::db'
+          submenu3.command 'Chaining::select()'
+          submenu3.command 'Chaining::from()'
+          submenu3.command 'Chaining::join()'
+          submenu3.command 'Chaining::where()'
+          submenu3.command 'Chaining::like()'
+          submenu3.command 'Chaining::group_by()'
+          submenu3.command 'Chaining::order_by()'
+          submenu3.command 'Chaining::limit()'
+          submenu3.command 'Chaining::get()'
+          submenu3.command 'Chaining::result()'
+          submenu3.command 'Chaining::row()'
         end
         
         submenu2.menu t(:dbforge) do |submenu3|
