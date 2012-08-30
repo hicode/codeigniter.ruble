@@ -17,6 +17,38 @@ The Development kit incorporates all the Codeigniter API, use the shortcuts and 
 
 
 -------------
+###Update :: 更新
+
+2012.8.30 更新
+语法重新构思，使用"."作为替代"->"的符号；使用":"作为链式方法起始符，无需输入$this。
+
+例:
+
+$this->load->library();   写法：load.lib
+
+$this->db->query();      写法：db.query
+
+$this->input->post();     写法：input.post
+
+注：自动匹配，不用全部敲出。
+
+$this->db->select(*)->get()->result()
+
+写法：
+
+:db
+
+:select
+
+:get
+
+:result
+
+提供逻辑化分类方法的API列表供查询。
+
+修订若干bug。
+
+-------------
 ###Install :: 安装
 
 打开Aptana命令行控制台
