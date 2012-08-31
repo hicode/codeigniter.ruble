@@ -7,8 +7,8 @@ template 'Controller Template' do |t|
 end
 
 project_template "Sample Project Template" do |t|
-	t.type = :web
-	t.location = "git://github.com/EllisLab/CodeIgniter.git"
-	t.description = "Codeigniter 2.1.2 Project"
-	t.icon = "codeigniter.png"
+	t.type = :all
+	t.location = "templates/CodeIgniter.zip"
+	t.description = "基于Codeigniter 2.1.2创建项目架构"
+	t.icon = "templates/codeigniter.png"
 end
