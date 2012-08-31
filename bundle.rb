@@ -354,7 +354,3 @@ env 'source.php' do |e|
   e['TM_COMMENT_END_3'] = '*/'
 end
 
-template 'Controller Template' do |t|
-  t.filetype = "*.php"
-  t.location = "templates/tpl_Controller.php"
-end
