@@ -1610,7 +1610,1618 @@ children:
   displayName: Codeigniter
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-d23df49b-13c5-43e2-9880-f5853bb7fb91,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-502e0194-d320-4d2a-9155-1793fa82c965,
+  path: bundle.rb, scope: source.php}
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children:
+    - children: *id001
+      commandName: $this->load->library('...')
+      customProperties: null
+      displayName: $this->load->library('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->database()
+      customProperties: null
+      displayName: $this->load->database()
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->model('...')
+      customProperties: null
+      displayName: $this->load->model('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->helper('...')
+      customProperties: null
+      displayName: $this->load->helper('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->view('...')
+      customProperties: null
+      displayName: $this->load->view('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->driver('...')
+      customProperties: null
+      displayName: $this->load->driver('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->file('...')
+      customProperties: null
+      displayName: $this->load->file('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->language('...')
+      customProperties: null
+      displayName: $this->load->language('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->load->config('...')
+      customProperties: null
+      displayName: $this->load->config('...')
+      path: bundle.rb
+      scope: null
+    commandName: Loader
+    customProperties: null
+    displayName: Loader
+    path: bundle.rb
+    scope: null
+  - children:
+    - children:
+      - children: *id001
+        commandName: $this->uri->segment('...')
+        customProperties: null
+        displayName: $this->uri->segment('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->uri->uri_string()
+        customProperties: null
+        displayName: $this->uri->uri_string()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->uri->total_segments()
+        customProperties: null
+        displayName: $this->uri->total_segments()
+        path: bundle.rb
+        scope: null
+      commandName: Uri
+      customProperties: null
+      displayName: Uri
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->config->load('...')
+        customProperties: null
+        displayName: $this->config->load('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->config->item('...')
+        customProperties: null
+        displayName: $this->config->item('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->config->set_item('...')
+        customProperties: null
+        displayName: $this->config->set_item('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->config->site_url()
+        customProperties: null
+        displayName: $this->config->site_url()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->config->base_url()
+        customProperties: null
+        displayName: $this->config->base_url()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->config->system_url()
+        customProperties: null
+        displayName: $this->config->system_url()
+        path: bundle.rb
+        scope: null
+      commandName: Config
+      customProperties: null
+      displayName: Config
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->input->post('...')
+        customProperties: null
+        displayName: $this->input->post('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->get('...')
+        customProperties: null
+        displayName: $this->input->get('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->cookie('...')
+        customProperties: null
+        displayName: $this->input->cookie('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->set_cookie('...')
+        customProperties: null
+        displayName: $this->input->set_cookie('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->ip_address()
+        customProperties: null
+        displayName: $this->input->ip_address()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->user_agent()
+        customProperties: null
+        displayName: $this->input->user_agent()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->request_headers()
+        customProperties: null
+        displayName: $this->input->request_headers()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->get_request_header('...')
+        customProperties: null
+        displayName: $this->input->get_request_header('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->is_ajax_request()
+        customProperties: null
+        displayName: $this->input->is_ajax_request()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->input->is_cli_request()
+        customProperties: null
+        displayName: $this->input->is_cli_request()
+        path: bundle.rb
+        scope: null
+      commandName: Input
+      customProperties: null
+      displayName: Input
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->lang->load('...')
+        customProperties: null
+        displayName: $this->lang->load('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->lang->line('...')
+        customProperties: null
+        displayName: $this->lang->line('...')
+        path: bundle.rb
+        scope: null
+      commandName: Language
+      customProperties: null
+      displayName: Language
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->load->library('pagination')
+        customProperties: null
+        displayName: $this->load->library('pagination')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->pagination->initialize($config)
+        customProperties: null
+        displayName: $this->pagination->initialize($config)
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: echo $this->pagination->create_links();
+        customProperties: null
+        displayName: echo $this->pagination->create_links();
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['base_url'] = '...';
+        customProperties: null
+        displayName: $config['base_url'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['total_rows'] = '...';
+        customProperties: null
+        displayName: $config['total_rows'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['per_page'] = '...';
+        customProperties: null
+        displayName: $config['per_page'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['uri_segment'] = '...';
+        customProperties: null
+        displayName: $config['uri_segment'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['num_links'] = '...';
+        customProperties: null
+        displayName: $config['num_links'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['use_page_numbers'] = '...';
+        customProperties: null
+        displayName: $config['use_page_numbers'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['page_query_string'] = '...';
+        customProperties: null
+        displayName: $config['page_query_string'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['full_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['full_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['full_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['full_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['first_link'] = '...';
+        customProperties: null
+        displayName: $config['first_link'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['first_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['first_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['first_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['first_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['last_link'] = '...';
+        customProperties: null
+        displayName: $config['last_link'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['last_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['last_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['last_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['last_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['next_link'] = '...';
+        customProperties: null
+        displayName: $config['next_link'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['next_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['next_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['next_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['next_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['prev_link'] = '...';
+        customProperties: null
+        displayName: $config['prev_link'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['prev_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['prev_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['prev_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['prev_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['cur_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['cur_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['cur_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['cur_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['num_tag_open'] = '...';
+        customProperties: null
+        displayName: $config['num_tag_open'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['num_tag_close'] = '...';
+        customProperties: null
+        displayName: $config['num_tag_close'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['display_pages'] = '...';
+        customProperties: null
+        displayName: $config['display_pages'] = '...';
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $config['anchor_class'] = '...';
+        customProperties: null
+        displayName: $config['anchor_class'] = '...';
+        path: bundle.rb
+        scope: null
+      commandName: Pagination
+      customProperties: null
+      displayName: Pagination
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->form_validation->set_rules('...')
+        customProperties: null
+        displayName: $this->form_validation->set_rules('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->form_validation->run()
+        customProperties: null
+        displayName: $this->form_validation->run()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->form_validation->set_message('...')
+        customProperties: null
+        displayName: $this->form_validation->set_message('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->form_validation->set_error_delimiters('...')
+        customProperties: null
+        displayName: $this->form_validation->set_error_delimiters('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo form_error('...'); ?>
+        customProperties: null
+        displayName: <?php echo form_error('...'); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo validation_errors(); ?>
+        customProperties: null
+        displayName: <?php echo validation_errors(); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo set_value('...'); ?>
+        customProperties: null
+        displayName: <?php echo set_value('...'); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo set_select('...'); ?>
+        customProperties: null
+        displayName: <?php echo set_select('...'); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo set_checkbox('...'); ?>
+        customProperties: null
+        displayName: <?php echo set_checkbox('...'); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: <?php echo set_radio('...'); ?>
+        customProperties: null
+        displayName: <?php echo set_radio('...'); ?>
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Form Validation Template
+        customProperties: null
+        displayName: Form Validation Template
+        path: bundle.rb
+        scope: null
+      - children:
+        - children: *id001
+          commandName: trim
+          customProperties: null
+          displayName: trim
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: required
+          customProperties: null
+          displayName: required
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: matches[...]
+          customProperties: null
+          displayName: matches[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: is_unique[...]
+          customProperties: null
+          displayName: is_unique[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: min_length[...]
+          customProperties: null
+          displayName: min_length[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: max_length[...]
+          customProperties: null
+          displayName: max_length[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: exact_length[...]
+          customProperties: null
+          displayName: exact_length[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: greater_than[...]
+          customProperties: null
+          displayName: greater_than[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: less_than[...]
+          customProperties: null
+          displayName: less_than[...]
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: alpha
+          customProperties: null
+          displayName: alpha
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: alpha_numeric
+          customProperties: null
+          displayName: alpha_numeric
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: alpha_dash
+          customProperties: null
+          displayName: alpha_dash
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: numeric
+          customProperties: null
+          displayName: numeric
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: integer
+          customProperties: null
+          displayName: integer
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: decimal
+          customProperties: null
+          displayName: decimal
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: is_natural
+          customProperties: null
+          displayName: is_natural
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: is_natural_no_zero
+          customProperties: null
+          displayName: is_natural_no_zero
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: valid_email
+          customProperties: null
+          displayName: valid_email
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: valid_emails
+          customProperties: null
+          displayName: valid_emails
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: valid_ip
+          customProperties: null
+          displayName: valid_ip
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: valid_base64
+          customProperties: null
+          displayName: valid_base64
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: xss_clean
+          customProperties: null
+          displayName: xss_clean
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: prep_for_form
+          customProperties: null
+          displayName: prep_for_form
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: prep_url
+          customProperties: null
+          displayName: prep_url
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: strip_image_tags
+          customProperties: null
+          displayName: strip_image_tags
+          path: bundle.rb
+          scope: null
+        - children: *id001
+          commandName: encode_php_tags
+          customProperties: null
+          displayName: encode_php_tags
+          path: bundle.rb
+          scope: null
+        commandName: rules
+        customProperties: null
+        displayName: rules
+        path: bundle.rb
+        scope: null
+      commandName: Form Validation
+      customProperties: null
+      displayName: Form Validation
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->session->userdata('...')
+        customProperties: null
+        displayName: $this->session->userdata('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->set_userdata('...')
+        customProperties: null
+        displayName: $this->session->set_userdata('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->all_userdata()
+        customProperties: null
+        displayName: $this->session->all_userdata()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->unset_userdata('...')
+        customProperties: null
+        displayName: $this->session->unset_userdata('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->set_flashdata('...')
+        customProperties: null
+        displayName: $this->session->set_flashdata('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->flashdata('...')
+        customProperties: null
+        displayName: $this->session->flashdata('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->session->sess_destroy()
+        customProperties: null
+        displayName: $this->session->sess_destroy()
+        path: bundle.rb
+        scope: null
+      commandName: Session
+      customProperties: null
+      displayName: Session
+      path: bundle.rb
+      scope: null
+    commandName: System_Library
+    customProperties: null
+    displayName: System_Library
+    path: bundle.rb
+    scope: null
+  - children:
+    - children:
+      - children: *id001
+        commandName: $this->load->helper('form')
+        customProperties: null
+        displayName: $this->load->helper('form')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_open('...')
+        customProperties: null
+        displayName: form_open('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_open_multipart('...')
+        customProperties: null
+        displayName: form_open_multipart('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_hidden('...')
+        customProperties: null
+        displayName: form_hidden('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_input('...')
+        customProperties: null
+        displayName: form_input('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_password('...')
+        customProperties: null
+        displayName: form_password('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_upload('...')
+        customProperties: null
+        displayName: form_upload('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_textarea('...')
+        customProperties: null
+        displayName: form_textarea('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_multiselect('...')
+        customProperties: null
+        displayName: form_multiselect('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_dropdown('...')
+        customProperties: null
+        displayName: form_dropdown('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_checkbox('...')
+        customProperties: null
+        displayName: form_checkbox('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_radio('...')
+        customProperties: null
+        displayName: form_radio('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_submit('...')
+        customProperties: null
+        displayName: form_submit('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_reset('...')
+        customProperties: null
+        displayName: form_reset('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_button('...')
+        customProperties: null
+        displayName: form_button('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_label('...')
+        customProperties: null
+        displayName: form_label('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_close('...')
+        customProperties: null
+        displayName: form_close('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_fieldset('...')
+        customProperties: null
+        displayName: form_fieldset('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_fieldset_close('...')
+        customProperties: null
+        displayName: form_fieldset_close('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: form_prep('...')
+        customProperties: null
+        displayName: form_prep('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: set_value('...')
+        customProperties: null
+        displayName: set_value('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: set_select('...')
+        customProperties: null
+        displayName: set_select('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: set_checkbox('...')
+        customProperties: null
+        displayName: set_checkbox('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: set_radio('...')
+        customProperties: null
+        displayName: set_radio('...')
+        path: bundle.rb
+        scope: null
+      commandName: form_helper
+      customProperties: null
+      displayName: form_helper
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->load->helper('url')
+        customProperties: null
+        displayName: $this->load->helper('url')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: site_url('...')
+        customProperties: null
+        displayName: site_url('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: base_url()
+        customProperties: null
+        displayName: base_url()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: base_url('...')
+        customProperties: null
+        displayName: base_url('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: current_url()
+        customProperties: null
+        displayName: current_url()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: uri_string()
+        customProperties: null
+        displayName: uri_string()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: index_page()
+        customProperties: null
+        displayName: index_page()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: anchor('...')
+        customProperties: null
+        displayName: anchor('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: anchor_popup('...')
+        customProperties: null
+        displayName: anchor_popup('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: mailto('...')
+        customProperties: null
+        displayName: mailto('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: safe_mailto('...')
+        customProperties: null
+        displayName: safe_mailto('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: auto_link('...')
+        customProperties: null
+        displayName: auto_link('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: url_title('...')
+        customProperties: null
+        displayName: url_title('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: prep_url($string)
+        customProperties: null
+        displayName: prep_url($string)
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: redirect('...')
+        customProperties: null
+        displayName: redirect('...')
+        path: bundle.rb
+        scope: null
+      commandName: url_helper
+      customProperties: null
+      displayName: url_helper
+      path: bundle.rb
+      scope: null
+    commandName: Helper
+    customProperties: null
+    displayName: Helper
+    path: bundle.rb
+    scope: null
+  - children:
+    - children:
+      - children: *id001
+        commandName: result()
+        customProperties: null
+        displayName: result()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: result_array()
+        customProperties: null
+        displayName: result_array()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: row()
+        customProperties: null
+        displayName: row()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: row_array()
+        customProperties: null
+        displayName: row_array()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: num_rows()
+        customProperties: null
+        displayName: num_rows()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: num_fields()
+        customProperties: null
+        displayName: num_fields()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: free_result()
+        customProperties: null
+        displayName: free_result()
+        path: bundle.rb
+        scope: null
+      commandName: Result
+      customProperties: null
+      displayName: Result
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->db->get('...')
+        customProperties: null
+        displayName: $this->db->get('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->get_where('...')
+        customProperties: null
+        displayName: $this->db->get_where('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->select('...')
+        customProperties: null
+        displayName: $this->db->select('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->select_max('...')
+        customProperties: null
+        displayName: $this->db->select_max('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->select_min('...')
+        customProperties: null
+        displayName: $this->db->select_min('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->select_avg('...')
+        customProperties: null
+        displayName: $this->db->select_avg('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->select_sum('...')
+        customProperties: null
+        displayName: $this->db->select_sum('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->from('...')
+        customProperties: null
+        displayName: $this->db->from('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->join('...')
+        customProperties: null
+        displayName: $this->db->join('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->where('...')
+        customProperties: null
+        displayName: $this->db->where('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_where('...')
+        customProperties: null
+        displayName: $this->db->or_where('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->where_in('...')
+        customProperties: null
+        displayName: $this->db->where_in('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_where_in('...')
+        customProperties: null
+        displayName: $this->db->or_where_in('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->where_not_in('...')
+        customProperties: null
+        displayName: $this->db->where_not_in('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_where_not_in('...')
+        customProperties: null
+        displayName: $this->db->or_where_not_in('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->like('...')
+        customProperties: null
+        displayName: $this->db->like('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_like('...')
+        customProperties: null
+        displayName: $this->db->or_like('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->not_like('...')
+        customProperties: null
+        displayName: $this->db->not_like('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_not_like('...')
+        customProperties: null
+        displayName: $this->db->or_not_like('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->group_by('...')
+        customProperties: null
+        displayName: $this->db->group_by('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->distinct()
+        customProperties: null
+        displayName: $this->db->distinct()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->having('...')
+        customProperties: null
+        displayName: $this->db->having('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->or_having('...')
+        customProperties: null
+        displayName: $this->db->or_having('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->order_by('...')
+        customProperties: null
+        displayName: $this->db->order_by('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->limit('...')
+        customProperties: null
+        displayName: $this->db->limit('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->count_all_results('...')
+        customProperties: null
+        displayName: $this->db->count_all_results('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->insert('...')
+        customProperties: null
+        displayName: $this->db->insert('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->insert_batch('...')
+        customProperties: null
+        displayName: $this->db->insert_batch('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->set('...')
+        customProperties: null
+        displayName: $this->db->set('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->update('...')
+        customProperties: null
+        displayName: $this->db->update('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->update_batch('...')
+        customProperties: null
+        displayName: $this->db->update_batch('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->delete('...')
+        customProperties: null
+        displayName: $this->db->delete('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->empty_table('...')
+        customProperties: null
+        displayName: $this->db->empty_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->truncate('...')
+        customProperties: null
+        displayName: $this->db->truncate('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->start_cache('...')
+        customProperties: null
+        displayName: $this->db->start_cache('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->stop_cache('...')
+        customProperties: null
+        displayName: $this->db->stop_cache('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->db->flush_cache('...')
+        customProperties: null
+        displayName: $this->db->flush_cache('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Method Chaining
+        customProperties: null
+        displayName: Method Chaining
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::db
+        customProperties: null
+        displayName: Chaining::db
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::select()
+        customProperties: null
+        displayName: Chaining::select()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::from()
+        customProperties: null
+        displayName: Chaining::from()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::join()
+        customProperties: null
+        displayName: Chaining::join()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::where()
+        customProperties: null
+        displayName: Chaining::where()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::like()
+        customProperties: null
+        displayName: Chaining::like()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::group_by()
+        customProperties: null
+        displayName: Chaining::group_by()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::order_by()
+        customProperties: null
+        displayName: Chaining::order_by()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::limit()
+        customProperties: null
+        displayName: Chaining::limit()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::get()
+        customProperties: null
+        displayName: Chaining::get()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::result()
+        customProperties: null
+        displayName: Chaining::result()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: Chaining::row()
+        customProperties: null
+        displayName: Chaining::row()
+        path: bundle.rb
+        scope: null
+      commandName: Active_Record
+      customProperties: null
+      displayName: Active_Record
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->load->dbforge()
+        customProperties: null
+        displayName: $this->load->dbforge()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->create_database('...')
+        customProperties: null
+        displayName: $this->dbforge->create_database('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->drop_database('...')
+        customProperties: null
+        displayName: $this->dbforge->drop_database('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->create_table('...')
+        customProperties: null
+        displayName: $this->dbforge->create_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->drop_table('...')
+        customProperties: null
+        displayName: $this->dbforge->drop_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->rename_table('...')
+        customProperties: null
+        displayName: $this->dbforge->rename_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->add_column('...')
+        customProperties: null
+        displayName: $this->dbforge->add_column('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->drop_column('...')
+        customProperties: null
+        displayName: $this->dbforge->drop_column('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->modify_column('...')
+        customProperties: null
+        displayName: $this->dbforge->modify_column('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->add_field('...')
+        customProperties: null
+        displayName: $this->dbforge->add_field('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbforge->add_key('...')
+        customProperties: null
+        displayName: $this->dbforge->add_key('...')
+        path: bundle.rb
+        scope: null
+      commandName: dbforge
+      customProperties: null
+      displayName: dbforge
+      path: bundle.rb
+      scope: null
+    - children:
+      - children: *id001
+        commandName: $this->load->dbutil()
+        customProperties: null
+        displayName: $this->load->dbutil()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: '-'
+        customProperties: null
+        displayName: '-'
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->list_databases()
+        customProperties: null
+        displayName: $this->dbutil->list_databases()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->database_exists('...')
+        customProperties: null
+        displayName: $this->dbutil->database_exists('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->optimize_table('...')
+        customProperties: null
+        displayName: $this->dbutil->optimize_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->repair_table('...')
+        customProperties: null
+        displayName: $this->dbutil->repair_table('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->optimize_database()
+        customProperties: null
+        displayName: $this->dbutil->optimize_database()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->csv_from_result('...')
+        customProperties: null
+        displayName: $this->dbutil->csv_from_result('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->xml_from_result('...')
+        customProperties: null
+        displayName: $this->dbutil->xml_from_result('...')
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: $this->dbutil->backup()
+        customProperties: null
+        displayName: $this->dbutil->backup()
+        path: bundle.rb
+        scope: null
+      - children: *id001
+        commandName: backup() config array
+        customProperties: null
+        displayName: backup() config array
+        path: bundle.rb
+        scope: null
+      commandName: dbutil
+      customProperties: null
+      displayName: dbutil
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: '-'
+      customProperties: null
+      displayName: '-'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->query('...')
+      customProperties: null
+      displayName: $this->db->query('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->dbprefix('...')
+      customProperties: null
+      displayName: $this->db->dbprefix('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->escape('...')
+      customProperties: null
+      displayName: $this->db->escape('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->insert_id()
+      customProperties: null
+      displayName: $this->db->insert_id()
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->affected_rows()
+      customProperties: null
+      displayName: $this->db->affected_rows()
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->count_all('...')
+      customProperties: null
+      displayName: $this->db->count_all('...')
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: $this->db->last_query()
+      customProperties: null
+      displayName: $this->db->last_query()
+      path: bundle.rb
+      scope: null
+    commandName: Database
+    customProperties: null
+    displayName: Database
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: '-'
+    customProperties: null
+    displayName: '-'
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: tpl_controller
+      customProperties: null
+      displayName: tpl_controller
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: tpl_model
+      customProperties: null
+      displayName: tpl_model
+      path: bundle.rb
+      scope: null
+    commandName: Code_Template
+    customProperties: null
+    displayName: Code_Template
+    path: bundle.rb
+    scope: null
+  commandName: Codeigniter
+  customProperties: null
+  displayName: Codeigniter
+  path: bundle.rb
+  scope: null
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-84c09550-a3bf-42c8-acd7-675774507997,
   path: bundle.rb, scope: source.php}
 - !!com.aptana.scripting.model.SnippetElement
   async: false
@@ -6096,7 +7707,7 @@ children:
   workingDirectoryType: UNDEFINED
 - !!com.aptana.scripting.model.TemplateElement
   async: false
-  customProperties: null
+  customProperties: {replace_parameters: false}
   displayName: Controller Template
   filetype: '*.php'
   input: []
