@@ -1,5 +1,5 @@
 <?php
 
 
-/* End of file ${TM_NEW_FILE} */
-/* Location: ${TM_NEW_FILE_DIRECTORY} */
+/* End of file ${TM_NEW_FILE_BASENAME}.php */
+/* Location: .${TM_NEW_FILE} */
