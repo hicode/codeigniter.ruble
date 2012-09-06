@@ -1600,6 +1600,12 @@ children:
       displayName: tpl_model
       path: bundle.rb
       scope: null
+    - children: *id001
+      commandName: tpl_function
+      customProperties: null
+      displayName: tpl_function
+      path: bundle.rb
+      scope: null
     commandName: Code_Template
     customProperties: null
     displayName: Code_Template
@@ -1610,7 +1616,7 @@ children:
   displayName: Codeigniter
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-3225f524-71c0-4068-8935-7194ceccc774,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-7cb8f3cd-cec2-4002-a79e-e358ea96565a,
   path: bundle.rb, scope: source.php}
 - !!com.aptana.scripting.model.SnippetElement
   async: false
@@ -6094,6 +6100,26 @@ children:
   scope: null
   tags: *id001
   workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [':function']
+  description: null
+  displayName: tpl_function
+  expansion: "${1:public/private/protected} function ${2:____}(${3:____}) {\n    ${4:____}\n\
+    }"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snippets.rb
+  runType: current_thread
+  scope: null
+  tags: *id001
+  workingDirectoryType: UNDEFINED
 - !!com.aptana.scripting.model.TemplateElement
   async: false
   customProperties: {replace_parameters: false}
@@ -6108,10 +6134,14 @@ children:
   runType: current_thread
   scope: null
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: Codeigniter 2.1.2 Project,
-  displayName: Sample Project Template, icon: codeigniter.png, id: Sample Project Template,
-  location: 'https://nodeload.github.com/EllisLab/CodeIgniter/zipball/2.1-stable',
-  path: templates\templates.rb, scope: null, type: ALL}
+- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: 基于Codeigniter 2.1.2创建项目架构,
+  displayName: CodeIgniter Project, icon: templates/codeigniter.png, id: CodeIgniter Project,
+  location: templates/CodeIgniter.zip, path: templates\templates.rb, scope: null,
+  type: ALL}
+- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: 敏捷CI创建工具,
+  displayName: AgileCI Start, icon: templates/codeigniter.png, id: AgileCI Start,
+  location: templates/AgileCI_Start.zip, path: templates\templates.rb, scope: null,
+  type: ALL}
 copyright: null
 customProperties: {contact_email_rot_13: xiehai@vip.qq.com}
 decreaseIndentMarkers: &id002 {}

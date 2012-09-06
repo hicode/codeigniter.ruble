@@ -338,6 +338,15 @@ bundle t(:bundle_name) do |bundle|
       submenu.menu t(:Code_Template) do |submenu2|
         submenu2.command 'tpl_controller'
         submenu2.command 'tpl_model'
+        
+        
+        
+        
+        
+        
+        
+        
+        submenu2.command 'tpl_function'
       end
     end
 	
