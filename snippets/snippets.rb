@@ -812,7 +812,7 @@ with_defaults :codeigniter => 'codeigniter' do
   
   snippet "$this->db->get_where(\'...\')" do |s|
     s.trigger = 'db.get_where'
-    s.expansion = '\$this->db->get_where(\'${1:table_name}\',${2:array(\'id\' => $id)}, $limit, $offset)'
+    s.expansion = '\$this->db->get_where(\'${1:table_name}\',array(\'${2:id}\' => ${2:\$id}), \$limit, \$offset)'
   end
   
   snippet "$this->db->select(\'...\')" do |s|
