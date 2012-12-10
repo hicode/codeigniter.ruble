@@ -847,7 +847,7 @@ with_defaults :codeigniter => 'codeigniter' do
   
   snippet "$this->db->join(\'...\')" do |s|
     s.trigger = 'db.join'
-    s.expansion = '\$this->db->join(\'${1:join table}\',\'${2:table.field = table.field}\',\'${3:left/right/outer/inner/left outer/right outer}\')'
+    s.expansion = '\$this->db->join(\'${1:join_table}\',\'${2:table.field = table.field}\',\'${3:left/right/outer/inner/left outer/right outer}\')'
   end
   
   snippet "$this->db->where(\'...\')" do |s|
