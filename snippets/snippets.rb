@@ -11,7 +11,12 @@ with_defaults :codeigniter => 'codeigniter' do
   
   snippet "$this->load->model(\'...\')" do |s|
     s.trigger = 'load.model'
-    s.expansion = '\$this->load->model(\'${1:name}\')'
+    s.expansion = '\$this->load->model(\'${1:name}\',\'${2:alias}\')'
+  end
+  
+  snippet "$this->model->method(\'...\')" do |s|
+    s.trigger = ':mdl'
+    s.expansion = '\$this->model->${1:method}(${2:param})'
   end
   
   snippet "$this->load->helper(\'...\')" do |s|
@@ -216,7 +221,7 @@ with_defaults :codeigniter => 'codeigniter' do
   #URI
   snippet "$this->uri->segment(\'...\')" do |s|
     s.trigger = 'uri.segment'
-    s.expansion = '\$this->uri->segment(\'${1:0}\')'
+    s.expansion = '\$this->uri->segment(${1:0})'
   end
   
   snippet "$this->uri->uri_string()" do |s|
@@ -1301,5 +1306,3 @@ snippet "tpl_function" do |s|
 }'
 end
 end
-
-  
