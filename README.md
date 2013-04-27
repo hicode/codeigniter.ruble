@@ -18,6 +18,12 @@ The Development kit incorporates all the Codeigniter API, use the shortcuts and 
 -------------
 ###Update :: 更新
 
+2013.4.26 修订uri、model、并添加:mdl方法
+
+![chaining](http://codeigniter.org.cn/forums/data/attachment/forum/201304/27/004646po26n76nk0eojp5j.gif "model")
+
+![chaining](http://codeigniter.org.cn/forums/data/attachment/forum/201304/27/004646po26n76nk0eojp5j.gif "function")
+
 2012.8.30 更新
 语法重新构思，使用"."作为替代"->"的符号；使用":"作为链式方法起始符，无需输入$this。
 
