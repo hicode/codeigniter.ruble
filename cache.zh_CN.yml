@@ -6194,8 +6194,8 @@ children:
     prefix_values: [':function']
   description: null
   displayName: tpl_function
-  expansion: "${1:public/private/protected} function ${2:____}(${3:____}) {\n    ${4:____}\n\
-    }"
+  expansion: "${1:public/private/protected} function ${2:funcName}(${3:$param}) {\n\
+    \    //code on here\n}"
   iconPath: null
   input: [none]
   inputPath: null

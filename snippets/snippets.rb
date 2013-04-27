@@ -1301,8 +1301,8 @@ end
 
 snippet "tpl_function" do |s|
     s.trigger = ':function'
-    s.expansion = '${1:public/private/protected} function ${2:____}(${3:____}) {
-    ${4:____}
+    s.expansion = '${1:public/private/protected} function ${2:funcName}(${3:$param}) {
+    //code on here
 }'
 end
 end
