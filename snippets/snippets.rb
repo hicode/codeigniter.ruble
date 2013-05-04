@@ -16,7 +16,7 @@ with_defaults :codeigniter => 'codeigniter' do
   
   snippet "$this->model->method(\'...\')" do |s|
     s.trigger = ':mdl'
-    s.expansion = '\$this->model->${1:method}(${2:param})'
+    s.expansion = '\$this->${1:model}->${2:method}(${3:param})'
   end
   
   snippet "$this->load->helper(\'...\')" do |s|
