@@ -1257,19 +1257,19 @@ if ( ! defined(\'BASEPATH\')) exit(\'No direct script access allowed\');
 
 class ${1:ControllerName} extends ${2:CI}_Controller {
   
-  function __construct()
-  {
-    parent::__construct();
-    //Construct Code...
-  }
-  
-  public function ${4:functionName}()
-  {
-    //Function Code...
-  }
+	function __construct()
+	{
+		parent::__construct();
+		//Construct Code...
+	}
+
+	public function ${4:functionName}()
+	{
+		//Function Code...
+	}
 }'
 end
-
+	
 snippet "tpl_model" do |s|
     s.trigger = 'tpl.model'
     s.expansion = '<?php
@@ -1286,23 +1286,23 @@ if ( ! defined(\'BASEPATH\')) exit(\'No direct script access allowed\');
  *\/
 class ${1:ModelName} extends CI_Model {
   
-  function __construct()
-  {
-    parent::__construct();
-    //Construct Code...
-  }
+	function __construct()
+	{
+		parent::__construct();
+		//Construct Code...
+	}
   
-  public function ${2:functionName}()
-  {
-    //Function Code...
-  }
+	public function ${2:functionName}()
+	{
+		//Function Code...
+	}
 }'
 end
 
 snippet "tpl_function" do |s|
     s.trigger = ':function'
     s.expansion = '${1:public/private/protected} function ${2:funcName}(${3:$param}) {
-    //code on here
+	//code on here
 }'
 end
 end
