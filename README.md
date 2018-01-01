@@ -11,7 +11,7 @@ Aptana Studio 3 addon to support Codeigniter 2.1.x commands.
 The Development kit incorporates all the Codeigniter API, use the shortcuts and menu options quick tips required by the Codeigniter code, to make Codeigniter more and more agile!
 
 -------------
-###Update
+### Update
 
 2013.4.26 修订uri、model、并添加:mdl方法
 
@@ -58,7 +58,7 @@ $this->db->select(*)->get()->result()
 修订若干bug。
 
 -------------
-###Install :: 安装
+### Install :: 安装
 
 打开Aptana命令行控制台
 Home@HOMEPC ~/Aptana Rubles 
@@ -67,7 +67,7 @@ Home@HOMEPC ~/Aptana Rubles
 $ git clone git://github.com/hicode/codeigniter.ruble.git
 
 -------------
-###HOW TO :: 使用
+### HOW TO :: 使用
 
 
 -------------
