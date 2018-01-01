@@ -23,20 +23,23 @@ The Development kit incorporates all the Codeigniter API, use the shortcuts and 
 语法重新构思，使用"."作为替代"->"的符号；使用":"作为链式方法起始符，无需输入$this。
 
 例:
-
+```
 $this->load->library();   写法：load.lib
 
 $this->db->query();      写法：db.query
 
 $this->input->post();     写法：input.post
+```
 
 注：自动匹配，不用全部敲出。
 
 数据库链式方法
+```
 $this->db->select(*)->get()->result()
-
+```
 写法：
 
+```
 :db
 
 :select
@@ -44,6 +47,8 @@ $this->db->select(*)->get()->result()
 :get
 
 :result
+```
+
 
 ![chaining](http://116.255.245.18/ci_bundle/2.gif "chaining")
 
@@ -64,8 +69,9 @@ $this->db->select(*)->get()->result()
 Home@HOMEPC ~/Aptana Rubles 
 
 输入如下：
+```
 $ git clone git://github.com/hicode/codeigniter.ruble.git
-
+```
 -------------
 ### HOW TO :: 使用
 
