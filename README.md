@@ -1,9 +1,9 @@
 Codeigniter Aptana Bundle(For CI 2.1+)
 =================
 
-######Author：Xie Hai <解海>
-######E-mail:xiehai@vip.qq.com
-######QQ:50083000
+###### Author：Xie Hai <解海>
+###### E-mail:xiehai@vip.qq.com
+###### QQ:50083000
 -------------
 
 Aptana Studio 3 addon to support Codeigniter 2.1.x commands.
